@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XCCategoryKit_Example' do
+  pod 'XCCategoryKit', :path => '../'
+
+  target 'XCCategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
